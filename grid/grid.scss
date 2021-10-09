@@ -10,9 +10,23 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-rows: repeat(8, 1fr);
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
 }
+
+.gi-1 {
+}
+
+.gi-2 {
+
+}
+
+.gi-3 {
+
+}
+
 
 .grid-container {
   border: 5px solid #212226;
@@ -25,12 +39,20 @@ body {
   background-color: #71d99e;
 }
 .gi-2 {
-  color: #71d99e;
-  background-color: #3a8c7d;
+  color: #1e4040;
+  background-color: #71d99e;
 }
 .gi-3 {
-  color: #71d99e;
-  background-color: #255954;
+  color: #1e4040;
+  background-color: #71d99e;
+}
+.gi-4 {
+  color: #1e4040;
+  background-color: #71d99e;
+}
+.gi-5 {
+  color: #1e4040;
+  background-color: #71d99e;
 }
 
 .grid-item {

@@ -12,10 +12,13 @@ body {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[8];
-      grid-template-rows: repeat(8, 1fr);
-  -ms-grid-columns: (1fr)[8];
-      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
 }
 
 .grid-container {
@@ -30,13 +33,23 @@ body {
 }
 
 .gi-2 {
-  color: #71d99e;
-  background-color: #3a8c7d;
+  color: #1e4040;
+  background-color: #71d99e;
 }
 
 .gi-3 {
-  color: #71d99e;
-  background-color: #255954;
+  color: #1e4040;
+  background-color: #71d99e;
+}
+
+.gi-4 {
+  color: #1e4040;
+  background-color: #71d99e;
+}
+
+.gi-5 {
+  color: #1e4040;
+  background-color: #71d99e;
 }
 
 .grid-item {
